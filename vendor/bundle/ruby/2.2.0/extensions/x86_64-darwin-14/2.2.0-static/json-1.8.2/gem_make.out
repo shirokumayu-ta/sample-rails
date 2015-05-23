@@ -1,0 +1,9 @@
+/Users/sakumayuta/.rbenv/versions/2.2.1/bin/ruby -r ./siteconf20150523-26271-wgxwu2.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
