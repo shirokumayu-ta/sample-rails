@@ -23,6 +23,10 @@
     <%= f.label :sort %><br>
     <%= f.number_field :sort %>
   </div>
+  <div class="field">
+    <%= f.label :status %><br>
+    <%= f.select :status, ["空白","下書き","公開","非公開"] %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
