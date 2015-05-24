@@ -25,7 +25,7 @@
   </div>
   <div class="field">
     <%= f.label :status %><br>
-    <%= f.select :status, ["空白","下書き","公開","非公開"] %>
+    <%= f.select :status, ["下書き","公開","非公開"], {:include_blank => "選択してください"} %>
   </div>
   <div class="actions">
     <%= f.submit %>
